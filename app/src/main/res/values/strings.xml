@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Employee  Venture!</string>
+
+    <string name="total_Wealth">Total Wealth:\t\t</string>
+    <string name="actual_Wealth">0</string>
+    <string name="wealth_per_second">\t\tWealth Per Second:\t\t </string>
+    <string name="actual_wealth_per_second">\t\t0 </string>
+    <string name="action_settings">Settings</string>
+    <string name="update">Update</string>
+    <string name="fast_Food">Fast Food</string>
+    <string name="fastFoodEmployees">Fast Food Employees:\t\t</string>
+    <string name="total_ffe">0</string>
+    <string name="wareHouseEmployees">Ware House Employees:\t\t</string>
+    <string name="total_whe">0</string>
+    <string name="ware_house">Ware House</string>
+    <string name="bank">Bank</string>
+    <string name="bankEmployees">Bank Employees:\t\t</string>
+    <string name="total_be">0</string>
+    <string name="programmer">Programmer</string>
+    <string name="programmerEmployees">Programmers:\t\t</string>
+    <string name="total_pe">0</string>
+    <string name="buttonTimesProfit">Profit x3</string>
+    <string name="buttonMusic">Music</string>
+    <string name="buttonPrestige">Prestige</string>
+</resources>

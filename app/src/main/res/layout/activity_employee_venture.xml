@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".EmployeeVenture"
+    android:background="#ff4d92ff">
+
+    <TextView android:text="@string/total_Wealth" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_wealth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fast_Food"
+        android:id="@+id/buttonFastFood"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/bemployees_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/buttonWareHouse"
+        android:layout_alignStart="@+id/buttonWareHouse" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actual_Wealth"
+        android:id="@+id/wealthView"
+        android:layout_above="@+id/fastFoodEmployees"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/wps_view"
+        android:layout_toEndOf="@+id/wps_view" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/buttonUpdate"
+        android:layout_alignBaseline="@+id/wealth_per_second"
+        android:layout_alignBottom="@+id/wealth_per_second"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fastFoodEmployees"
+        android:id="@+id/fastFoodEmployees"
+        android:layout_below="@+id/total_wealth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_ffe"
+        android:id="@+id/ffemployees_view"
+        android:layout_below="@+id/wealthView"
+        android:layout_alignLeft="@+id/wealthView"
+        android:layout_alignStart="@+id/wealthView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wareHouseEmployees"
+        android:id="@+id/wareHouseEmployees"
+        android:layout_below="@+id/fastFoodEmployees"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_whe"
+        android:id="@+id/whemployees_view"
+        android:layout_below="@+id/ffemployees_view"
+        android:layout_alignLeft="@+id/ffemployees_view"
+        android:layout_alignStart="@+id/ffemployees_view" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ware_house"
+        android:id="@+id/buttonWareHouse"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/buttonFastFood"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/wealth_per_second"
+        android:layout_alignLeft="@+id/buttonProgrammer"
+        android:layout_alignStart="@+id/buttonProgrammer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wealth_per_second"
+        android:id="@+id/wealth_per_second"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignTop="@+id/wps_view"
+        android:layout_toRightOf="@+id/buttonUpdate"
+        android:layout_toEndOf="@+id/buttonUpdate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actual_wealth_per_second"
+        android:id="@+id/wps_view"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/wealth_per_second"
+        android:layout_toEndOf="@+id/wealth_per_second"
+        android:layout_marginBottom="118dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bank"
+        android:id="@+id/buttonBank"
+        android:layout_below="@+id/buttonWareHouse"
+        android:layout_alignRight="@+id/buttonWareHouse"
+        android:layout_alignEnd="@+id/buttonWareHouse"
+        android:layout_alignLeft="@+id/buttonProgrammer"
+        android:layout_alignStart="@+id/buttonProgrammer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bankEmployees"
+        android:id="@+id/bank_View"
+        android:layout_below="@+id/wareHouseEmployees"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_be"
+        android:id="@+id/bemployees_view"
+        android:layout_below="@+id/whemployees_view"
+        android:layout_alignLeft="@+id/whemployees_view"
+        android:layout_alignStart="@+id/whemployees_view" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonTimesProfit"
+        android:id="@+id/buttonTimesProfit"
+        android:layout_alignTop="@+id/buttonFastFood"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/buttonBank"
+        android:layout_alignRight="@+id/buttonUpdate"
+        android:layout_alignEnd="@+id/buttonUpdate" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonMusic"
+        android:id="@+id/buttonMusic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programmer"
+        android:id="@+id/buttonProgrammer"
+        android:layout_below="@+id/buttonBank"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programmerEmployees"
+        android:id="@+id/programmers_view"
+        android:layout_below="@+id/bank_View"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_pe"
+        android:id="@+id/pemployees_view"
+        android:layout_below="@+id/bemployees_view"
+        android:layout_alignLeft="@+id/bemployees_view"
+        android:layout_alignStart="@+id/bemployees_view" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonPrestige"
+        android:id="@+id/buttonPrestige"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
